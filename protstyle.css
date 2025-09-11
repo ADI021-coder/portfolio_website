@@ -48,24 +48,50 @@ h3 {
   font-style: italic;
 }
 
+.socials{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+}
+
 .linkedin{
     font-size: 25px;
     color: white;
-    margin-right: 20px;
+    
 }
 
 .linkedin:hover{
     color: blue;
-    transition: color 0.5s;
+    transition: color 0.5s ease;
 }
 
 .mail{
-    text-align: center;
     font-size: 25px;
     color: white;
 }
 
 .mail:hover{
     color: #EA4335;
-    transition: color 0.5s;
+    transition: color 0.5s ease;
+}
+
+.github{
+    font-size: 25px;
+    color: white;
+}
+
+.github:hover{
+    color: gray;
+    transition: color 0.5s ease;
+}
+
+.resume{
+    font-size: 25px;
+    color: white;
+}
+
+.resume:hover{
+    color: teal;
+    transition: color 0.5s ease;
 }
